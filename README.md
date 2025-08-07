@@ -49,6 +49,7 @@ java -jar hello.jar
 
 ## Project Structure
 kotlin-hello-world/
+
 ├── src/
 │   └── main/kotlin/
 │       └── Main.kt      # Main application file
