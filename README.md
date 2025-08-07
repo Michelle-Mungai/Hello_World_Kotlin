@@ -52,31 +52,39 @@ java -jar hello.jar
 kotlin-hello-world/
 
 ├── src/
+
 │   └── main/kotlin/
+
 │       └── Main.kt      # Main application file
+
 ├── .gitignore           # Standard Kotlin/JVM ignores
+
 └── README.md            # This file
 
 ## Sample Code
 fun main() {
+
     println("Hello, Kotlin World!") 
+    
     greet("Developer")  // Demonstrates function call
 }
 
 /** 
  * Greets a user with Kotlin's string templates
  * @param name The person to greet
+
  */
 fun greet(name: String) {
+
     println("Welcome, $name!")  // String interpolation
 }
 
 ## Troubleshooting
 # Error	                                Solution
-Unresolved reference: println       	Ensure file is in src/main/kotlin/
-Kotlin not installed	                Install via IntelliJ or sdk install kotlin
-JDK not found	                        Set JDK path in File → Project Structure → SDKs
-NoClassDefFoundError	                Use -include-runtime when compiling JARs
+Unresolved reference: println       	  Ensure file is in src/main/kotlin/
+Kotlin not installed	                    Install via IntelliJ or sdk install kotlin
+JDK not found	                          Set JDK path in File → Project Structure → SDKs
+NoClassDefFoundError	                    Use -include-runtime when compiling JARs
 
 ## 🚨 Common Errors During Setup
 
