@@ -2,7 +2,7 @@
 Objective: Learn Kotlin from scratch using AI prompts and create a simple "Hello World" program.
 
 ## 1. Title & Objective
-# Title: "Getting Started with Kotlin – A Beginner’s Guide"
+**Title: "Getting Started with Kotlin – A Beginner’s Guide"**
 **Why Kotlin?**
 - Modern, concise, and fully interoperable with Java.
 - Official language for Android development.
@@ -11,7 +11,8 @@ Objective: Learn Kotlin from scratch using AI prompts and create a simple "Hello
 Goal: Write, compile, and run a Kotlin "Hello World" program.
 
 ## 2. Quick Summary of Kotlin
-What is Kotlin? A statically typed JVM language developed by JetBrains.
+What is Kotlin? 
+A statically typed JVM language developed by JetBrains.
 Use Cases: Android apps, backend services, multiplatform apps
 Real-World Example: Pinterest, Trello, and Evernote use Kotlin.
 
