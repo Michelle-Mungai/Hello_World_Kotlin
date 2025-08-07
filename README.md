@@ -13,6 +13,7 @@ Goal: Write, compile, and run a Kotlin "Hello World" program.
 ## 2. Quick Summary of Kotlin
 What is Kotlin? 
 A statically typed JVM language developed by JetBrains.
+
 Use Cases: Android apps, backend services, multiplatform apps
 Real-World Example: Pinterest, Trello, and Evernote use Kotlin.
 
@@ -55,7 +56,7 @@ kotlin-hello-world/
 
 │   └── main/kotlin/
 
-│       └── Main.kt      # Main application file
+│           └── Main.kt      # Main application file
 
 ├── .gitignore           # Standard Kotlin/JVM ignores
 
@@ -72,18 +73,23 @@ fun main() {
 /** 
  * Greets a user with Kotlin's string templates
  * @param name The person to greet
-
  */
+ 
 fun greet(name: String) {
 
     println("Welcome, $name!")  // String interpolation
 }
 
 ## Troubleshooting
+
 # Error	                                Solution
+
 Unresolved reference: println       	  Ensure file is in src/main/kotlin/
+
 Kotlin not installed	                    Install via IntelliJ or sdk install kotlin
+
 JDK not found	                          Set JDK path in File → Project Structure → SDKs
+
 NoClassDefFoundError	                    Use -include-runtime when compiling JARs
 
 ## 🚨 Common Errors During Setup
@@ -93,13 +99,20 @@ NoClassDefFoundError	                    Use -include-runtime when compiling JAR
 `Cannot Run Git: No such file: git.exe`
 
 **Solution:**  
-- **Install Git** from [git-scm.com](https://git-scm.com/downloads)  
-- Configure path in IntelliJ:  
-  **File → Settings → Version Control → Git** → Set path to:  
-  - Windows: `C:\Program Files\Git\bin\git.exe`  
-  - Mac/Linux: `/usr/bin/git`  
-- Verify installation in terminal:  
+- **Install Git** from [git-scm.com](https://git-scm.com/downloads)
+  
+- Configure path in IntelliJ:
+   
+  **File → Settings → Version Control → Git** → Set path to:
+
+  - Windows: `C:\Program Files\Git\bin\git.exe`
+    
+  - Mac/Linux: `/usr/bin/git`
+    
+- Verify installation in terminal:
+  
   ```bash
+  
   git --version
   
 ## Contributing
